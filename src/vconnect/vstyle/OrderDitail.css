@@ -1,0 +1,128 @@
+.order-details{
+       margin: 5% 5%;           
+}
+
+.order-details_top{
+        display: flex; 
+        justify-content: space-between; 
+        margin: 5%;        
+}
+
+.order-details_top_1{
+                  
+}
+.order-details_top_2{
+                  
+}
+.top_1_x{
+                  font-weight: 600;
+}
+.top_1_s{
+   display: flex;               
+}
+.ol_1 li{
+                  margin-top: 20px;
+}
+.o_1{
+     display: flex;  
+     justify-content: space-between;
+     padding: 20px;      
+     gap: 20px; 
+     background-color: white;
+     border-radius: 20px;
+}
+
+.o_1_0{
+                  
+}
+.o_1_0 img{
+                  max-width: 100px;
+                  max-height: 100px;
+}
+
+.o_1_1{
+     display: block;  
+               
+}
+
+.o_1_1 p{
+                  color: #000;
+                  font-family: 'Rubik', sans-serif;
+                  font-size: 14px;
+                  font-style: normal;
+                 
+                  line-height: normal;
+                  letter-spacing: -0.28px;
+                  text-transform: capitalize;
+                  max-width: 200px;
+                  max-height: 20px;
+                  overflow-y: hidden;
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  max-width: 230px;             
+             }
+             
+.o_1_2{
+       min-width: 200px;           
+}
+.o_1_2 p{
+                  font-family: 'Rubik', sans-serif;
+                  font-size: 14px;
+                  font-style: normal;
+                 
+                  line-height: normal;
+                  line-height: 1.5; /* Adjust this value based on your line height */
+                  max-height: 4.5em; /* Set this to the number of lines you want to show (3 lines in this case) */
+                  overflow: hidden;
+}
+
+.o_1_3{
+                  min-width: 200px;         
+}
+.o_1_2_x{
+       display: flex;  
+       gap: 20px;         
+}
+.o_1_j{
+   display: flex; 
+   gap: 20px;              
+}
+.order-details_title{
+          display: flex;
+          justify-content: center; 
+          width: auto;       
+}
+.order-details_title h2{
+            width: fit-content;      
+}
+
+@media screen and (max-width:1100px) {
+.o_1_2_x{
+display: block;           
+}    
+.order-details_top {
+                  display: block;
+
+              } 
+      
+}
+@media screen and (max-width:800px) {
+.o_1_j{
+display: block;               
+ }             
+}
+@media screen and (max-width:630px) {
+.o_1{
+     display: block;             
+}
+.o_1_0{
+     width: auto;
+     height: 200px;             
+}
+.o_1_0 img{
+   width: 100%;
+   height: 200px;               
+}
+                  
+}

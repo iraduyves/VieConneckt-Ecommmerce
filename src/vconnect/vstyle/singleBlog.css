@@ -1,0 +1,58 @@
+.sinle_blog{
+     margin: 3% 5%;             
+}
+.Single_blogs_display{
+                  width: 100%;
+                  display: flex;
+}
+.single_Blogs_icon{
+           width: 40%;       
+}
+.single_Blogs_icon img{
+                  width: 100%;       
+       }
+       
+.single_Blogs_action_and_icon{
+                  width: 60%;
+                  padding: 30px;
+}
+.single_blog_p{
+         font-size: 30px;
+         font-weight: bold;
+         font-family: Arial, Helvetica, sans-serif;         
+}
+.sinle_Blogs_text{
+height: fit-content;                  
+}
+.sinle_blogs_action{
+ width: 200px;                 
+}
+.Single_brand_edit button{
+                  width: 100px;
+                  height: 40px;
+                  background-color: green;
+                  border: none;
+                  border-radius: 10px;
+                  color: white;
+}
+.single_brand_delete button{
+width: 100px;
+height: 40px;
+background-color: rgb(170, 30, 30);
+border: none;
+border-radius: 10px;
+color: white;
+}
+@media screen and (max-width:430px) {
+     .Single_blogs_display{
+          width: 100%;
+          display: block;
+}
+.single_Blogs_icon{
+     width: 100%;       
+}
+.single_Blogs_action_and_icon{
+     width: 100%;
+     padding: 30px;
+}
+}

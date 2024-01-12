@@ -27,7 +27,7 @@ Before you begin, ensure you have met the following requirements:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone :https://github.com/iraduyves/Vie_Conneckt_Ecommerce.git
+   git clone :https://github.com/iraduyves/VieConneckt-Ecommmerce.git
 
 ## Usage 
 1.Start the development server:  npm Start

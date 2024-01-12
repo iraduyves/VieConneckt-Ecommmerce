@@ -1,0 +1,108 @@
+
+.create_big_container{
+                  position: absolute;
+                  
+                  flex-shrink: 0;
+                  border-radius: 0px 0px 0px 0px;
+                  background: #FFFFFF;   
+                  z-index: 5;   
+                  top: 0;
+                  right:0;
+                  height: 100%;
+                  width: 455px;
+                  transition: right 0.5s ease;
+                  box-shadow: 1px 4px 3px 0px rgb(81, 78, 78), -1px 0px 3px 0px rgb(81, 78, 78);
+}
+.create_big_container.show {
+                  right: 0; /* Display on the screen */
+                }
+.close_container{
+  gap: 22px;    
+  align-items: end;
+  justify-content: end;
+  height: 15vh;
+  right: 0;
+}
+
+.create_min_container{
+        gap: 22px;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 85vh;
+}
+.create_min_container input{
+  display: flex;
+width: 366px;
+height: 70px;
+padding: 11px 157px 10px 83px;
+align-items: center;
+border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+background: rgba(255, 255, 255, 0.70);
+color: #000;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: -0.32px;
+text-transform: capitalize;
+cursor: pointer;
+}
+.create_min_container button{
+  display: flex;
+width: 236px;
+padding: 8px 0px;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+border: 1px solid #0C0;
+
+background: rgba(255, 255, 255, 0.70);
+color: #0C0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.4px;
+text-transform: capitalize;
+}
+.close_container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* Align items to the end (right in a row) */
+  align-items: flex-end; 
+  
+}
+.close_container button{
+  margin-right: 20px;
+  background: white;
+  border: 1px solid  red;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+      /* box-shadow: 1px 4px 20px 0px rgb(255, 0, 0), -1px 0px 30px 0px rgb(214, 7, 7); */
+}
+.close_icon{
+  fill: red;
+  width: 32px;
+  height: 32px;
+}
+@media screen and (max-width:430px) {
+  .create_big_container {
+ 
+    width: 420px;
+  
+  }
+  .create_min_container input {
+    display: flex;
+    width: 326px;
+    height: 70px;
+    padding: 11px 27px 10px 83px;
+ 
+}
+
+}

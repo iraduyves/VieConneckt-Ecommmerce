@@ -1,0 +1,138 @@
+.user-details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-details {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  /* Adjust as needed */
+  height: 70vh;
+  margin: 0 auto;
+  /* Center the content */
+}
+
+.user-detail {
+  width:100%;
+  height: auto;
+}
+
+.user-image {
+  width: 45%;
+  margin-right: 5%;
+
+}
+.user-image img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+
+}
+
+.user-info {
+  width: 50%;
+  /* Adjust as needed */
+}
+
+
+.Edit_Cancer_container.role {
+  margin-top: 10%;
+  width: 60%;
+}
+
+.edit_role_actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 20%;
+  gap: 20px;
+
+}
+
+/* .sellect_role{
+                   width: 100%;
+                   border: 1px solid black;
+                   display: flex;
+                }
+                .sellect_role_lab{
+                 width: 30%; 
+                 display: block;
+                 margin-bottom: 8px;
+                 font-weight: bold;
+                 color: #333;
+                }
+                .sellect_role_sel{
+                  width: 70%;
+                } */
+/* Style for the container div */
+.sellect_role {
+  margin-bottom: 16px;
+  /* Adjust margin as needed */
+}
+
+/* Style for the label */
+.sellect_role_lab {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+  /* You can adjust the color as needed */
+}
+
+/* Style for the select element */
+.sellect_role_sel {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+/* Style for the select options */
+.sellect_role_sel option {
+  font-size: 14px;
+}
+
+.sellect_role_sel option {
+  font-size: 14px;
+  /* Additional option styles can be added here */
+  padding: 8px;
+  /* Adjust padding as needed */
+  background-color: #fff;
+  /* Background color for options */
+  color: #333;
+  /* Text color for options */
+}
+
+/* Style for the hover state of options */
+.sellect_role_sel option:hover {
+  background-color: #f0f0f0;
+  /* Background color on hover */
+}
+
+
+@media screen and (max-width:430px) {
+  .user-details {
+    display: block;
+  }
+
+  .user-image {
+    width: 100%;
+    /* Adjust as needed */
+    margin-right: 5%;
+    /* Adjust as needed */
+  }
+
+  .user-info {
+    margin-top: 10%;
+    width: 100%;
+    /* Adjust as needed */
+  }
+
+  .Edit_Cancer_container.role {
+
+    width: 100%;
+  }
+
+}

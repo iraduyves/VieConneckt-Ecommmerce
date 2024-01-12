@@ -1,0 +1,50 @@
+.blogs_display{
+                  width: 100%;
+                  max-width: 235px;
+                  height: 410px;
+                  flex-shrink: 0;
+                  border-radius: 15px;
+                  background: #FFF;
+                  box-shadow: -1px 0px 10px 0px rgba(0, 0, 0, 0.25);            
+}
+
+
+.Blogs_icon img {
+                  width: 235px;
+                  height: 158px;
+                  flex-shrink: 0;
+                  border-radius: 15px;
+              }
+.Blogs_action_and_icon {
+                  display: block;
+                  gap: 20px;
+                  padding: 10px;
+                  width: 100%;
+                  height: 243px;
+              }
+.blogs_action {
+display: flex;
+justify-content: space-between;
+gap: 20px;
+height: 30px;
+}
+.blog_more_button{
+       width: 80px;
+       height: 30px;
+       border-radius: 15px;
+       background-color: rgb(0, 114, 245) !important;           
+}
+.blog_more{
+    color: rgb(255, 255, 255);              
+}
+.Blogs_text{
+    display: block;
+    max-height: 200px;
+    overflow-y: scroll;
+ 
+}
+.Blogs_text::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+

@@ -1,0 +1,65 @@
+{
+  "name": "vi-connect-online-shop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.5.0",
+    "@fortawesome/free-regular-svg-icons": "^6.5.0",
+    "@fortawesome/free-solid-svg-icons": "^6.5.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^1.9.7",
+    "@tanstack/react-query": "^5.10.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.5.1",
+    "axios": "^1.6.2",
+    "date-fns": "^3.2.0",
+    "libphonenumber-js": "^1.10.53",
+    "notiflix": "^3.2.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.2",
+    "react-fontawesome": "^1.7.1",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.48.2",
+    "react-icons": "^4.12.0",
+    "react-image-zoom": "^1.3.1",
+    "react-medium-image-zoom": "^5.1.8",
+    "react-paginate": "^8.2.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-phone-number-input": "^3.3.8",
+    "react-rating-stars-component": "^2.2.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.19.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "recharts": "^2.10.1",
+    "slick-carousel": "^1.8.1",
+    "use-debounce": "^10.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

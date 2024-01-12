@@ -1,0 +1,10 @@
+.Existing_image{
+                  
+     width: auto;
+     height: auto;   
+     background: none;          
+}
+.Existing_image img{
+     width: 100px;
+     height: 100px;
+}

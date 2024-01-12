@@ -1,0 +1,122 @@
+.product {
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+    margin: 10px;
+    /* height: 500px; */
+  }
+.TopCate {
+    position: relative;
+  }
+  .TopCate img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  .TopCate .nametop {
+    position: relative;
+    width: 100%;
+  }
+  .TopCate .nametop span {
+    background: #0f3460;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    margin: 5px;
+    position: absolute;
+    top: 10px;
+  }
+  .TopCate .nametop .tleft {
+    left: 0;
+  }
+  .TopCate .nametop .tright {
+    background-color: aliceblue;
+    color: black;
+    position: absolute;
+    right: 0;
+  }
+  .d_flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .c_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .f_flex {
+    display: flex;
+  }
+  .heading .heading-left .i {
+    font-size: 30px;
+  }
+  .heading .heading-left h2 {
+    font-size: 25px;
+    margin: 5px;
+  }
+  .heading .heading-right i,
+  .heading .heading-right {
+    text-align: right;
+    color: grey;
+  }
+  .heading .i {
+    color: var(--color-bf4800);
+    margin: 10px;
+}
+.heading img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+  }
+  .NewArrivals h4 {
+    font-weight: 400;
+  }
+  .NewArrivals span {
+    color: var(--color-bf4800);
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .NewArrivals .box img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .wrapper {
+    text-align: center;
+  }
+  .wrapper .img {
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 20px;
+  }
+  .wrapper .img i {
+    font-size: 25px;
+  }
+  .wrapper .product {
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .wrapper .product h3 {
+    font-weight: 500;
+  }
+  .wrapper p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: grey;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px;
+  }
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }

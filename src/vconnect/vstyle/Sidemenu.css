@@ -1,0 +1,196 @@
+ul li {
+  margin-bottom: 15px;
+ }
+ .menu_nav_ul{
+  padding-left: 0px;
+ }
+
+
+.menu_navlist{
+margin: 0;
+padding-top: 100px;
+padding-left: 0px;
+                  
+}
+.menu_navlist .menu_navlist_container{
+margin: 0;
+}
+.menu_navlist .menu_navlist_container ul{
+display: block;
+}
+.menu_navlist .menu_navlist_container ul li .navigation{
+text-decoration: none;
+display: flex;
+gap: 37.2px;
+
+}
+
+.menu_navlist .menu_navlist_container ul li{
+
+display: inline-flex;
+width: 265px;
+height: 46px;
+padding: 12px 59px 11px 32.772px;
+align-items: flex-start;
+
+border-right: none;
+}
+.menu_navlist .menu_navlist_container ul li:hover{                 
+border-right: 10px solid #E0E6EF;
+}
+.navigation_icon{
+                  width: 23.669px;
+                  height: 23.643px;
+                  flex-shrink: 0;
+                  fill:white;            
+
+}
+.navigation_text{
+                  color: white;
+
+                  font-family: sans-serif;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: normal;
+                  letter-spacing: -0.32px;
+                  text-transform: capitalize;                  
+}
+
+
+.topmenu-logo-s{
+  opacity: 0;             
+  width: 264px;
+  height: 71px;
+ display: inline-flex;
+ padding: 8px 21.959px 8.852px 0px;
+ align-items: center;
+ border-radius: 0px 30px 30px 0px;
+ background: #3b4149; 
+ display: flex;  
+ position: absolute;     
+ }
+ .topmenu-logo-s .img_logo{
+ width: 82px;
+ height: 44px;
+ transform: rotate(-0.104deg);
+ flex-shrink: 0;
+ }
+ .logout_container{
+  /* margin-top: 70%; */
+  padding-left: 40px;
+ }
+ .logout_container button{
+  background: none;
+  border: none;
+ }
+ .logout_container button .icon_c{
+  margin: 10px;
+ }
+ .logout_container button .icon_c .Icon{
+  width: 22px;
+  height: 22px;
+ }
+ .logout_container button:hover{
+  color: rgba(249, 13, 13, 1);
+ }
+ .logout_container button .logout_text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+ }
+ @media screen and (max-width:1470px) {
+  .topmenu-logo-s{
+    opacity: 1;                 
+   }
+ }
+ @media screen and (max-width:1150px) {
+  .sidemen {
+    width: 230px;
+  
+}
+.topmenu-logo-s{             
+  width: 230px;
+  height: 71px;   
+ }
+ .menu_navlist .menu_navlist_container ul li{
+
+  display: inline-flex;
+  width: 231px;
+  height: 46px;
+  padding: 12px none 11px 32.772px;;
+  }
+  .menu_navlist .menu_navlist_container ul li:hover{                 
+    border-right: 10px solid #E0E6EF;
+    padding: 12px none 11px 32.772px;
+    }
+ }
+ @media screen and (max-width:950px){
+  .sidemen {
+    width: 200px;
+  
+}
+.topmenu-logo-s{             
+  width: 200px;
+  height: 71px;   
+ }
+ .menu_navlist .menu_navlist_container ul li{
+
+  display: inline-flex;
+  width: 201px;
+  height: 46px;
+  padding: 12px none 11px 32.772px;;
+  }
+  .menu_navlist .menu_navlist_container ul li:hover{                 
+    border-right: 10px solid #E0E6EF;
+    padding: 12px none 11px 32.772px;
+    }
+  .menu_navlist .menu_navlist_container ul li .navigation{
+      text-decoration: none;
+      display: flex;
+      gap: 27.2px;
+      
+      }
+      
+      .topmenu-logo-s p{
+           width: 0;
+           height: 0;
+           opacity: 0;
+       }
+ }
+ @media screen and (max-width:900px){
+  .sidemen {
+    width: 200px;
+  
+}
+.topmenu-logo-s{             
+  width: 200px;
+  height: 71px;   
+ }
+ .menu_navlist .menu_navlist_container ul li{
+
+  display: inline-flex;
+  width: 201px;
+  height: 46px;
+  padding: 12px none 11px 32.772px;;
+  }
+  .menu_navlist .menu_navlist_container ul li:hover{                 
+    border-right: 10px solid #E0E6EF;
+    padding: 12px none 11px 32.772px;
+    }
+  .menu_navlist .menu_navlist_container ul li .navigation{
+      text-decoration: none;
+      display: flex;
+      gap: 27.2px;
+      
+      }
+      
+      .topmenu-logo-s p{
+           width: 0;
+           height: 0;
+           opacity: 0;
+       }
+       .big_notification {
+        margin-left: 0%;
+       }
+      
+ }

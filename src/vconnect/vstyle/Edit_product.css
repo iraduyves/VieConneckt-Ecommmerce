@@ -1,0 +1,327 @@
+
+.edit_big_container{
+                  position: absolute;
+                  
+                  flex-shrink: 0;
+                  border-radius: 0;
+                  background: rgba(255, 253, 253, 1);   
+                  z-index: 5;   
+                  top: 0;
+                  right:0;
+                  height: 100%;
+                  width: 455px;
+                  transition: right 0.5s ease;
+                  box-shadow: 1px 4px 3px 0px rgb(81, 78, 78), -1px 0px 3px 0px rgb(81, 78, 78);
+                  padding: 20px;
+}
+.create_big_container.show {
+                  right: 0; /* Display on the screen */
+                }
+.close_container{
+  gap: 22px;    
+  align-items: end;
+  justify-content: end;
+  height: 15vh;
+  right: 0;
+}
+.close_container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* Align items to the end (right in a row) */
+  align-items: flex-end; 
+  
+}
+.close_container button{
+  margin-right: 20px;
+  background: white;
+  border: 1px solid  red;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+      /* box-shadow: 1px 4px 20px 0px rgb(255, 0, 0), -1px 0px 30px 0px rgb(214, 7, 7); */
+}
+.close_icon{
+  fill: red;
+  width: 32px;
+  height: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Editproduct_form_main_container{
+                  display:block;       
+}
+.Edit_form_top_side{
+
+background: none;
+ 
+} 
+.form_buttom_side{
+                  margin-top: 37px;
+                display: flex;  
+}
+
+.form_left_side{
+padding-left: 70px;
+background: none;
+
+}
+.Edit_form_right_side{
+background: none;
+
+}
+
+
+.Edit_form_top_side .Edit_upload{
+                  width: 100%;
+                  height: 100%;
+                  display: inline-flex;
+                  z-index: 3;
+                  position: absolute;
+                 
+                  flex-direction: column;
+                  justify-content: flex-end;
+                  align-items: center;
+                  opacity: 0;
+                  border-radius: 0;
+                  background: #FFF;
+                  border: 1px solid rgb(128, 128, 128,0.35);
+                  
+                  
+                  
+}
+.label p{
+  z-index: 2;
+}
+.Upload_icon{
+  width: 32px;
+  height: 32px;
+}
+.label{
+  position: relative;
+  color: white;
+  height: 50px;
+  width: 95%;
+  background-color: #4EB44E;
+  /* position: absolute; */
+  margin: auto;
+  /* top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.Edit_form_top_side img{
+  width: 25%;
+  height: 25%;
+  margin: 2.5%;
+}
+
+.edit_upload_form_input{
+color: rgba(0, 0, 0, 0.50);
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.32px;
+text-transform: capitalize;
+display: flex;
+width: 389px;
+height: 63px;
+padding: 22px 30px 12px 60px;
+align-items: center;
+flex-shrink: 0;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+                  
+background: #FFF;       
+
+}
+
+.edit_form_product_descreaption{
+padding: 10px;
+margin-top: 20px;
+width: 95%;
+height: 10%;
+flex-shrink: 0;
+border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+
+background: #FFF;  
+color: rgba(0, 0, 0, 0.50);
+
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.32px;
+text-transform: capitalize;        
+}
+.right_botton_l2{
+  margin-left: 23px;
+  margin-top: 23px;                 
+}
+.edit_upload_form_input_l2{
+                  color: rgba(0, 0, 0, 0.50);
+                  
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-size: 16px;
+                  font-style: normal;
+                  font-weight: 700;
+                  line-height: normal;
+                  letter-spacing: -0.32px;
+                  text-transform: capitalize;
+                  display: flex;
+                  width: 95%;
+                  height: 63px;
+                  padding: 22px 30px 22px 60px;
+                  align-items: center;
+                  flex-shrink: 0;
+                  border-top: none;
+                  border-left: none;
+                  border-right: none;
+                  border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+                                    
+                  background: #FFF;       
+                  }
+.edit_add_button{
+  margin-left: 20%;
+  margin-top: 5%;
+  color: #FFF;
+border: none;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.4px;
+text-transform: capitalize;
+display: flex;
+width: 163px;
+padding: 8px 55px 8px 69px;
+justify-content: flex-end;
+align-items: center;
+border-radius: 20px;
+background: #4EB44E;
+box-shadow: -1px 4px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+@media  screen and (max-width:1750px) {
+  .label {
+    height: 40px;
+    
+    
+}
+.edit_upload_form_input {
+  color: rgba(0, 0, 0, 0.50);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  text-transform: capitalize;
+  display: flex;
+  width: 389px;
+  height: 38px;
+  padding: 12px 30px 5px 60px;
+  align-items: center;
+  flex-shrink: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+  background: #FFF;
+}
+
+.edit_upload_form_input_l2 {
+  color: rgba(0, 0, 0, 0.50);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  text-transform: capitalize;
+  display: flex;
+  width: 95%;
+  height: 48px;
+  padding: 12px 30px 5px 60px;
+  align-items: center;
+  flex-shrink: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+  background: #FFF;
+}
+}
+ @media screen and (max-width:430px) {
+  .edit_upload_form_input {
+
+    font-size: 16px;
+    width: 349px;
+    height: 38px;
+  
+  }
+  .edit_upload_form_input_l2 {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    text-transform: capitalize;
+    display: flex;
+    width: 349px;
+    height: 48px;
+    padding: 12px 30px 5px 60px;
+    
+}
+.edit_form_buttom_side{
+  padding: 20px;
+}
+
+.Edit_form_top_side .Edit_upload {
+  width: 349px;
+  height: 100%;
+ 
+}
+.label {
+  position: relative;
+  color: white;
+  height: 70px;
+  width: 349px;
+  background-color: #4EB44E;
+  /* position: absolute; */
+  margin: auto;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ }
+

@@ -1,0 +1,10 @@
+.Brand_Existing_image{
+ width: fit-content;
+ height: fit-content;                  
+}
+.Brand_Existing_image img{
+                  width: 235px;
+                  height: 118px;
+                  flex-shrink: 0;
+                  border-radius: 30px;
+}
